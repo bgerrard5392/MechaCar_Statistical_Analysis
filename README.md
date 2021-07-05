@@ -1,5 +1,9 @@
 # MechaCar Statistical Analysis
 
+Final Project for Columbia Data Analytics Boot Camp
+
+**Deliverable Shortcuts:**
+| [Deliverable 1](https://github.com/jwc324/Pokemon_Machine_Learning/blob/main/README.md#segment-1) | [Deliverable 2](https://github.com/jwc324/Pokemon_Machine_Learning/blob/main/README.md#segment-2) | [Deliverable 3](https://github.com/jwc324/Pokemon_Machine_Learning/blob/main/README.md#segment-3) | [Deliverable 4](https://github.com/jwc324/Pokemon_Machine_Learning/blob/main/README.md#segment-4) |
 
 ## Linear Regression to Predict MPG
 - Vehicle weight and ground clearance coefficients provided a non-random amount of variance to mpg data.
