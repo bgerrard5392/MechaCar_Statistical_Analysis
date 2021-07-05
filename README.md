@@ -5,7 +5,7 @@ Final Project for Columbia Data Analytics Boot Camp
 **Deliverable Shortcuts:**
 | [Deliverable 1](https://github.com/jwc324/Pokemon_Machine_Learning/blob/main/README.md#segment-1) | [Deliverable 2](https://github.com/jwc324/Pokemon_Machine_Learning/blob/main/README.md#segment-2) | [Deliverable 3](https://github.com/jwc324/Pokemon_Machine_Learning/blob/main/README.md#segment-3) | [Deliverable 4](https://github.com/jwc324/Pokemon_Machine_Learning/blob/main/README.md#segment-4) |
 
-## Linear Regression to Predict MPG
+## Deliverable 1: Linear Regression to Predict MPG
 - Vehicle weight and ground clearance coefficients provided a non-random amount of variance to mpg data.
 - The slope of the linear model is considered to be not zero because the coefficient values are not equal to 0.
 - P-value is below 0.05 which means there is enough evidence to reject the null hypothesis
@@ -40,3 +40,11 @@ Ha: There is a statistical difference between MechaCar and competitive companies
 <br>
 <br>
 A two sample t-test would be used to test the hypothesis for each data point, MechaCar vs Competition, by year. The T-test will allow the company to observe if each variable has a significant difference between the two companies. The data point for cost, buy-back value (return on investment), engine capacity, avgerage maintenance cost, and safety rating will be used for these tests.
+
+## Deliverable 2:
+
+## Deliverable 3:
+
+## Deliverable 4:
+
+
