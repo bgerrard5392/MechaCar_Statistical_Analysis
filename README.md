@@ -18,7 +18,8 @@ In this challenge, you’ll help Jeremy and the data analytics team do the follo
 
 
 
-## Deliverable 1: Linear Regression to Predict MPG
+## Deliverable 1 
+### Linear Regression to Predict MPG
 | [Deliverable 1](https://github.com/bgerrard5392/MechaCar_Statistical_Analysis/blob/main/README.md#deliverable-1) | [Deliverable 2](https://github.com/bgerrard5392/MechaCar_Statistical_Analysis/blob/main/README.md#deliverable-2) | [Deliverable 3](https://github.com/bgerrard5392/MechaCar_Statistical_Analysis/blob/main/README.md#deliverable-3) | [Deliverable 4](https://github.com/bgerrard5392/MechaCar_Statistical_Analysis/blob/main/README.md#deliverable-4) |
 
 The 'MechaCar_mpg.csv' dataset contains mpg test results for 50 prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. Using your knowledge of R, you’ll design a linear model that predicts the mpg of MechaCar prototypes using several variables from the 'MechaCar_mpg.csv' file. 
@@ -71,12 +72,30 @@ Ha: There is a statistical difference between MechaCar and competitive companies
 <br>
 A two sample t-test would be used to test the hypothesis for each data point, MechaCar vs Competition, by year. The T-test will allow the company to observe if each variable has a significant difference between the two companies. The data point for cost, buy-back value (return on investment), engine capacity, avgerage maintenance cost, and safety rating will be used for these tests.
 
-## Deliverable 2:
+## Deliverable 2
+### Summary Statistics on Suspension Coils
 | [Deliverable 1](https://github.com/bgerrard5392/MechaCar_Statistical_Analysis/blob/main/README.md#deliverable-1) | [Deliverable 2](https://github.com/bgerrard5392/MechaCar_Statistical_Analysis/blob/main/README.md#deliverable-2) | [Deliverable 3](https://github.com/bgerrard5392/MechaCar_Statistical_Analysis/blob/main/README.md#deliverable-3) | [Deliverable 4](https://github.com/bgerrard5392/MechaCar_Statistical_Analysis/blob/main/README.md#deliverable-4) |
 
 
-## Deliverable 3:
+
+
+
+## Deliverable 3
+### T-Test on Suspension Coils
 | [Deliverable 1](https://github.com/bgerrard5392/MechaCar_Statistical_Analysis/blob/main/README.md#deliverable-1) | [Deliverable 2](https://github.com/bgerrard5392/MechaCar_Statistical_Analysis/blob/main/README.md#deliverable-2) | [Deliverable 3](https://github.com/bgerrard5392/MechaCar_Statistical_Analysis/blob/main/README.md#deliverable-3) | [Deliverable 4](https://github.com/bgerrard5392/MechaCar_Statistical_Analysis/blob/main/README.md#deliverable-4) |
+
+The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. Using your knowledge of R, you’ll create a summary statistics table to show:
+
+- The suspension coil’s PSI continuous variable across all manufacturing lots
+- The following PSI metrics for each lot: mean, median, variance, and standard deviation.
+
+#### Technical Analysis
+1. Download the `Suspension_Coil.csv` file, and place it in the active directory for your R session.
+2. In your `MechaCarChallenge.RScript`, import and read in the `Suspension_Coil.csv` file as a table.
+3. Write an RScript that creates a `total_summary` dataframe using the `summarize()` function to get the mean, median, variance, and standard deviation of the suspension coil’s PSI column.
+
+Your `total_summary` dataframe should look like this:
+
 
 
 ## Deliverable 4:
