@@ -19,14 +19,6 @@ In this challenge I will:
 ### Linear Regression to Predict MPG
 | [Deliverable 1](https://github.com/bgerrard5392/MechaCar_Statistical_Analysis/blob/main/README.md#deliverable-1) | [Deliverable 2](https://github.com/bgerrard5392/MechaCar_Statistical_Analysis/blob/main/README.md#deliverable-2) | [Deliverable 3](https://github.com/bgerrard5392/MechaCar_Statistical_Analysis/blob/main/README.md#deliverable-3) | [Deliverable 4](https://github.com/bgerrard5392/MechaCar_Statistical_Analysis/blob/main/README.md#deliverable-4) |
 
-The `MechaCar_mpg.csv` dataset contains mpg test results for 50 prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. Using your knowledge of R, you’ll design a linear model that predicts the mpg of MechaCar prototypes using several variables from the `MechaCar_mpg.csv file`. 
-
-> To Deliver. 
-
-- The `MechaCar_mpg.csv` file is imported and read into a dataframe
-- An RScript is written for a linear regression model to be performed on all six variables
-- An RScript is written to create the statistical summary of the linear regression model with the intended p-values
-- There is a summary that addresses all three questions
 
 
 
@@ -44,15 +36,7 @@ Based on my analysis, both vehicle length and ground clearnace have a significan
 ### Summary Statistics on Suspension Coils
 | [Deliverable 1](https://github.com/bgerrard5392/MechaCar_Statistical_Analysis/blob/main/README.md#deliverable-1) | [Deliverable 2](https://github.com/bgerrard5392/MechaCar_Statistical_Analysis/blob/main/README.md#deliverable-2) | [Deliverable 3](https://github.com/bgerrard5392/MechaCar_Statistical_Analysis/blob/main/README.md#deliverable-3) | [Deliverable 4](https://github.com/bgerrard5392/MechaCar_Statistical_Analysis/blob/main/README.md#deliverable-4) |
 
-The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. Using your knowledge of R, you’ll create a summary statistics table to show:
-
-- The suspension coil’s PSI continuous variable across all manufacturing lots
-- The following PSI metrics for each lot: mean, median, variance, and standard deviation.
-
 #### Technical Analysis
-
-
-
 ##### Total Summary Dataframe:
 ![total_summary](https://user-images.githubusercontent.com/75700317/124531245-1cc2bc80-dddc-11eb-9038-a2d915a94c73.png)
 
@@ -60,6 +44,7 @@ The MechaCar Suspension_Coil.csv dataset contains the results from multiple prod
 ##### Lot Summmary Dataframe:
 ![lot_summary](https://user-images.githubusercontent.com/75700317/124531224-159bae80-dddc-11eb-9ba9-98566902432b.png)
 
+Looking at the entire population of lots and the differencs between them, there is a variance of 62.29 PSI which is well within the variance requirement of 100 PSI.
 
 
 
