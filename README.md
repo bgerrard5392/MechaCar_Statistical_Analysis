@@ -54,9 +54,11 @@ The MechaCar Suspension_Coil.csv dataset contains the results from multiple prod
 
 
 ##### Total Summary Dataframe:
+![total_summary](https://user-images.githubusercontent.com/75700317/124531245-1cc2bc80-dddc-11eb-9038-a2d915a94c73.png)
 
 
 ##### Lot Summmary Dataframe:
+![lot_summary](https://user-images.githubusercontent.com/75700317/124531224-159bae80-dddc-11eb-9ba9-98566902432b.png)
 
 
 
