@@ -50,11 +50,13 @@ Looking at the entire population of lots and the differencs between them, there 
 #### Technical Analysis
 ### T-Tests on Suspension Coils
 Based on t-test we are showinga P-value of 1. This means we can reject the null hypothesis and predict that the PSI across all manufacturing lots is not statistically different from the population mean of 1,500 lbs per sq in.<br>
-<img src="Resources/One_Sample_ttest.png" width=300>
+![sample_t_test](https://user-images.githubusercontent.com/75700317/124533174-d8392000-dddf-11eb-9dcb-7f26ea801b26.png)
 <br>
 **Lot 1 -** The P-value is 9.35e-12, given this is smaller than 0.05 we can reject the null hypothesis for this grouping.<br>
 **Lot 2 -** The P-value is 0.01 which (like Lot 1) is smaller than 0.05 so we must reject the null hypothesis.<br>
 **Lot 3 -** The P-value is 0.156 which means we cannot reject the null hypothesis for this grouping.<br>
+
+![lot_t_test](https://user-images.githubusercontent.com/75700317/124533165-d53e2f80-dddf-11eb-987f-81b05d630ce5.png)
 
 
 
