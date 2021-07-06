@@ -64,49 +64,12 @@ Based on t-test we are showinga P-value of 1. This means we can reject the null 
 ### Design a Study Comparing the MechaCar to the Competition
 | [Deliverable 1](https://github.com/bgerrard5392/MechaCar_Statistical_Analysis/blob/main/README.md#deliverable-1) | [Deliverable 2](https://github.com/bgerrard5392/MechaCar_Statistical_Analysis/blob/main/README.md#deliverable-2) | [Deliverable 3](https://github.com/bgerrard5392/MechaCar_Statistical_Analysis/blob/main/README.md#deliverable-3) | [Deliverable 4](https://github.com/bgerrard5392/MechaCar_Statistical_Analysis/blob/main/README.md#deliverable-4) |
 
-The statistical study design has the following:
-- A metric to be tested is mentioned
-- A null hypothesis or an alternative hypothesis is described
-- A statistical test is described to test the hypothesis
-
-
-This study would involve collecting data on MechaCar and its comparable models across several different manufacturers over the last 3 years.
-
-* What are the competitions' comparable models, 
-* Which cars will MechaCar be competing with head-to-head? which cars will be included in the study?
-* Which factors will look at the study to determine the relevant to selling price?
- 
-
-#### Metrics
-Collecting data for comparable models across all major manufacturers for past 3 years for the following metrics:
-
-*  Safety Feature Rating: **Independent Variable**
-*  Current Price (Selling): **Dependent Variable**
-*  Drive Package : **Independent Variable**
-*  Engine (Electric, Hybrid, Gasoline / Conventional): **Independent Variable**
-*  Resale Value: **Independent Variable**
-*  Average Annual Cost of ownership (Maintenance): **Independent Variable**
-*  MPG (Gasoline Efficiency): **Independent Variable**
-
 
 #### Hypothesis: Null and Alternative
 After determining which factors are key for the MechaCar's genre:
 
- * Null Hypothesis (Ho): MechaCar is priced correctly based on its performance of key factors for its genre.
- * Alternative Hypothesis (Ha): MechaCar is NOT priced correctly based on performance of key factors for its genre.
+ * **Null Hypothesis (Ho):** MechaCar is priced correctly based on its performance of key factors for its genre.
+ * **Alternative Hypothesis (Ha):** MechaCar is NOT priced correctly based on performance of key factors for its genre.
  
 #### Statistical Tests
-A **multiple linear regression** would be used to determine the factors that have the highest correlation/predictability with the list selling price (dependent variable); which combination has the greatest impact on price (it may be all of them!)
-
-
-
-## Study Design: MechaCar vs Competition
-For future analysis I would look at data ponts for cost, buy-back value, engine capacity, maintenance, and safety rating. The following hypotheis will be tested: <br>
-<br>
-H0: There is no statistical difference between MechaCar and competitive companies.
-Ha: There is a statistical difference between MechaCar and competitive companies.
-<br>
-<br>
 A two sample t-test would be used to test the hypothesis for each data point, MechaCar vs Competition, by year. The T-test will allow the company to observe if each variable has a significant difference between the two companies. The data point for cost, buy-back value (return on investment), engine capacity, avgerage maintenance cost, and safety rating will be used for these tests.
-
-
